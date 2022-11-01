@@ -14,3 +14,7 @@ I'm 36 years old. I live in Ukraine, in the small town of Lyubotin, this is the 
 * **HTML** *(basic)*
 * **CSS** *(basic)*
 ***
+## Languages: 
+* Russian 
+* Ukrainian 
+* English *(under study)*
