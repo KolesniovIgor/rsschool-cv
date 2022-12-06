@@ -13,7 +13,7 @@ body.lock {
   overflow: hidden;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -35,7 +35,7 @@ h1 {
   padding-right: 10px;
 }
 
-h2{
+h2 {
   text-align: center;
 }
 
@@ -93,12 +93,12 @@ h2{
   margin-top: 60px;
   flex: 1 1 auto;
 }
-section{
+section {
   border-top: 4px solid #757575;
   margin-top: 15px;
 }
 
-.wraper{
+.wraper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -108,7 +108,7 @@ section{
   justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 15px;
-  border-top: none ;
+  border-top: none;
 }
 .profile-img {
   max-height: 250px;
@@ -133,10 +133,10 @@ section{
   text-transform: capitalize;
 }
 /* ................... */
-.skill-item{
+.skill-item {
   margin: 5px;
 }
-.skill-img{
+.skill-img {
   max-width: 40px;
   margin-right: 15px;
 }
@@ -145,53 +145,52 @@ section{
   text-align: center;
 }
 
-.sumary-text{
+.sumary-text {
   padding-bottom: 25px;
 }
 
 /* ..................... */
 
-.english-text{
+.english-text {
   text-transform: capitalize;
 }
 
-.courses-item{
+.courses-item {
   margin-bottom: 10px;
 }
 
-.courses-item > a{
+.courses-item > a {
   color: #000000;
 }
-.courses-item > a:hover{
+.courses-item > a:hover {
   border-bottom: 1px solid #000;
 }
 
-pre{
+pre {
   background-color: #fff;
   overflow-x: auto;
 }
 
-.projects-item a{
+.projects-item a {
   color: #000;
-
 }
 
-.projects-item a:hover{
+.projects-item a:hover {
   border-bottom: 1px solid #000;
 }
 
-.contacts-list{
+.contacts-list {
   display: flex;
   flex-wrap: wrap;
 }
-.contacts-item{
+.contacts-item {
   margin-left: 25px;
 }
-.contacts-item > a{
+.contacts-item > a {
   margin-left: 5px;
-} 
+}
 
-.contacts-link{
+.contacts-link {
   color: white;
 }
 
