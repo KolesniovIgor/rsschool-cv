@@ -56,7 +56,105 @@
       </nav>
     </div>
   </header>
-  <main></main>
+  <main class="main">
+    <div class="container">
+      <section class="profile">
+        <img class="profile-img" src="./assets/img/profile-photo.png" alt="avatar">
+        <div class="profile-items">
+          <h1 class="profile-title">Kolesniov Igor</h1>
+          <p class="profile-subtitle">Junior Front-end Developer</p>
+        </div>
+      </section>
+      <section class="summary" id="summary">
+        <h2 class="sumary-title">About me</h2>
+        <P class="sumary-text">Hello. My name is Igor. I am 36. 
+          I am a beginner web developer. 
+          I plan to become a senior developer in a large company.</P>
+      </section>
+      <div class="wraper">
+        <section class="skills" id="skills">
+          <h2 class="skill-title">Skills</h2>
+          <ul class="skill-list">
+            <li class="skill-item"> <img class="skill-img" src="./assets/iconPng/htnl.png" alt="html"> HTML (Base)</li>
+            <li class="skill-item"><img class="skill-img" src="./assets/iconPng/css.png" alt="css">CSS (Base)</li>
+            <li class="skill-item"><img class="skill-img" src="./assets/iconPng/git.png" alt="git">Git (Base)</li>
+            <li class="skill-item"><img class="skill-img" src="./assets/iconPng/js.png" alt="js">JS (Base)</li>
+          </ul>
+        </section>
+        <section class="courses" id="courses">
+          <h2 class="courses-title">Courses</h2>
+          <ul class="courses-list">
+            <li class="courses-item">
+              <a href="https://code-basics.com/ru/" class="courses-link" target="_blank">Code Basic HTML, CSS, JS </a>
+            </li>
+            <li class="courses-item">
+              <a href="https://rs.school/" class="courses-link" target="_blank">RSShool JS/FRONT-END</a>
+            </li>
+            <li class="courses-item">
+              <a href="https://englishfox.ru/anglijskij-po-metodu-pimslera.html" class="courses-link"
+                target="_blank">English by the Pimsleur Method</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <section class="code" id="code">
+        <h2 class="code-title">Example code</h2>
+        <pre>
+         <code>
+            
+  let nowDate = new Date
+  console.log( nowDate)
+  let nowYear = nowDate.getFullYear()
+  function yearOld(year) {
+    return nowYear - year
+  }
+  document.write(yearOld(1986))
+            
+          </code>
+        </pre>
+      </section>
+      <div class="wraper">
+        <section class="education" id="education">
+          <h2 class="education">Education</h2>
+          <p class="education-text">secondary technical education.</p>
+        </section>
+        <section class="english" id="english">
+          <h2 class="english-title">English</h2>
+          <p class="english-text">Pre Intermediate (A2)</p>
+        </section>
+      </div>
+      <section class="projects" id="projects">
+        <h2 class="projects-title">Projects</h2>
+        <ul class="pojects-list">
+          <li class="projects-item">
+            <a href="https://kolesniovigor.github.io/rsschool-cv/cv" class="project-link"
+              target="_blank">rsschool-cv</a>
+          </li>
+          <li class="projects-item">section will be updated</li>
+        </ul>
+      </section>
+      <section class="contacts" id="contacts">
+        <h2 class="contacts-title">Contacts</h2>
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            location: Ukraine Kharkov
+          </li>
+          <li class="contacts-item">
+            Mail: Kolesniovigor@gmail.com
+          </li>
+          <li class="contacts-item">Github:
+            <a class="contacts-link" href="https://github.com/KolesniovIgor" target="_blank"> Kolesniov-Igor</a>
+          </li>
+          <li class="contacts-item">Telegram:
+            <a class="contacts-link" href="https://t.me/Kolesniov" target="_blank">@Kolesniov</a>
+          </li>
+          <li class="contacts-item">Discord:
+            <a class="contacts-link" href="https://discord.com/channels/#9249" target="_blank">KolesniovIgor#9249</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
   <footer></footer>
 </body>
 
