@@ -65,6 +65,7 @@ h2{
   margin: 3px;
 }
 .nav-link {
+  text-transform: capitalize;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -129,6 +130,7 @@ section{
 
 .profile-subtitle {
   font-size: 25px;
+  text-transform: capitalize;
 }
 /* ................... */
 .skill-item{
@@ -142,7 +144,16 @@ section{
 .sumary-title {
   text-align: center;
 }
+
+.sumary-text{
+  padding-bottom: 25px;
+}
+
 /* ..................... */
+
+.english-text{
+  text-transform: capitalize;
+}
 
 .courses-item{
   margin-bottom: 10px;
