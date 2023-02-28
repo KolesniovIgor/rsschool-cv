@@ -7,7 +7,8 @@ ul li {
   display: flex;
 }
 a {
-  text-decoration: none;
+  color: rgba(3, 3, 3, 0.726);
+  /* text-decoration: none; */
 }
 body.lock {
   overflow: hidden;
@@ -159,9 +160,9 @@ section {
   margin-bottom: 10px;
 }
 
-.courses-item > a {
-  color: #000000;
-}
+/* .courses-item > a {
+  color: #cf1e1e;
+} */
 .courses-item > a:hover {
   border-bottom: 1px solid #000;
 }
@@ -171,9 +172,9 @@ pre {
   overflow-x: auto;
 }
 
-.projects-item a {
+/* .projects-item a {
   color: #000;
-}
+} */
 
 .projects-item a:hover {
   border-bottom: 1px solid #000;
