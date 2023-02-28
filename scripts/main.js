@@ -11,7 +11,6 @@ burgerBtn.addEventListener("click", function () {
 });
 
 //	закрытие меню по клику на раздел
-console.log(navItems)
 navItems.forEach(navItems =>{
   navItems.addEventListener('click', function () {
     burgerBtn.classList.remove("active");
@@ -19,3 +18,17 @@ navItems.forEach(navItems =>{
     document.body.classList.remove("lock");
   })
 })
+
+
+const age = document.querySelector('.age')
+
+const date = new Date()
+// console.log(age)
+
+function countAge (year){
+  const yearNow = date.getFullYear()
+  const fulAge = yearNow - year
+  age.textContent = fulAge
+} 
+
+countAge(1986)
